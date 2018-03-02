@@ -34,11 +34,11 @@ section {
 }
 .section-heading{
   color: black;
+  padding: 50px;
 }
 section h2.section-heading {
   font-size: 40px;
   margin-top: 0;
-  color: black;
 }
 .title{
   padding: 40px;
@@ -271,7 +271,11 @@ header.masthead .intro-text .intro-heading {
     margin: 0 0 30px;
   }
 }
-
+.title{
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+}
 .portfolio-modal {
   padding-right: 0px !important;
 }
