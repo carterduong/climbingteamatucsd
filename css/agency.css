@@ -136,6 +136,8 @@ img::-moz-selection {
   color: #fed136;
 }
 
+/*=============================*/
+
 @media (min-width: 992px) {
   #mainNav {
     padding-top: 25px;
@@ -166,10 +168,11 @@ img::-moz-selection {
   }
 }
 
+/*=============================*/
+
 header.masthead {
   text-align: center;
   color: white;
-  background-image: url("../img/header-bg.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -179,7 +182,26 @@ header.masthead {
   background-size: cover;
 }
 
+header.masthead.index {
+  background-image: url("../img/header-bg.jpg");
+  height: 100vh;
+}
 
+header.masthead.about {
+  background-image: url("../img/about-header.png");
+}
+
+header.masthead.faq {
+  background-image: url("../img/faq-header.png");
+}
+
+header.masthead.getinvolved {
+  background-image: url("../img/getinvolved-header.png");
+}
+
+header.masthead.contactus {
+  background-image: url("../img/contactus-header.png");
+}
 
 header.masthead .intro-text {
   padding-top: 150px;
@@ -202,6 +224,8 @@ header.masthead .intro-text .intro-heading {
   font-family: Futura, "Trebuchet MS", Arial, sans-serif;
 }
 
+/*=============================*/
+
 @media (min-width: 768px) {
   header.masthead .intro-text {
     padding-top: 300px;
@@ -223,6 +247,8 @@ header.masthead .intro-text .intro-heading {
   }
 
 }
+
+/*=============================*/
 
 .service-heading {
   margin: 15px 0;
@@ -301,11 +327,15 @@ header.masthead .intro-text .intro-heading {
   z-index: 2;
 }
 
+/*=============================*/
+
 @media (min-width: 767px) {
   #portfolio .portfolio-item {
     margin: 0 0 30px;
   }
 }
+
+/*=============================*/
 
 .portfolio-modal {
   padding-right: 0px !important;
@@ -501,6 +531,8 @@ header.masthead .intro-text .intro-heading {
   margin-bottom: 0;
 }
 
+/*=============================*/
+
 @media (min-width: 768px) {
   .timeline:before {
     left: 50%;
@@ -533,6 +565,8 @@ header.masthead .intro-text .intro-heading {
   }
 }
 
+/*=============================*/
+
 @media (min-width: 992px) {
   .timeline > li {
     min-height: 150px;
@@ -555,6 +589,8 @@ header.masthead .intro-text .intro-heading {
   }
 }
 
+/*=============================*/
+
 @media (min-width: 1200px) {
   .timeline > li {
     min-height: 170px;
@@ -574,6 +610,8 @@ header.masthead .intro-text .intro-heading {
     padding: 0 100px 20px 20px;
   }
 }
+
+/*=============================*/
 
 .team-member {
   margin-bottom: 50px;
