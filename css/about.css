@@ -32,10 +32,13 @@ h6 {
 section {
   padding: 100px 0;
 }
-
+.section-heading{
+  color: black;
+}
 section h2.section-heading {
   font-size: 40px;
   margin-top: 0;
+  color: black;
 }
 .title{
   padding: 40px;
@@ -45,7 +48,6 @@ section h3.section-subheading {
   font-size: 16px;
   font-weight: 400;
   font-style: italic;
-  color: white;
   text-transform: none;
   font-family: Futura, "Trebuchet MS", Arial, sans-serif;
 
@@ -239,44 +241,10 @@ header.masthead .intro-text .intro-heading {
   cursor: pointer;
 }
 
-#portfolio .portfolio-item .portfolio-link .portfolio-hover {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  -webkit-transition: all ease 0.5s;
-  -moz-transition: all ease 0.5s;
-  transition: all ease 0.5s;
-  opacity: 0;
-  background: rgba(254, 209, 54, 0.9);
-}
-
-#portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
-  opacity: 1;
-}
-
-#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
-  font-size: 20px;
-  position: absolute;
-  top: 50%;
-  width: 100%;
-  height: 20px;
-  margin-top: -12px;
-  text-align: center;
-  color: white;
-}
-
-#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
-  margin-top: -12px;
-}
-
-#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3,
-#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4 {
-  margin: 0;
-}
-
 #portfolio .portfolio-item .portfolio-caption {
   max-width: 400px;
   margin: 0 auto;
+  color: black;
   padding: 25px;
   text-align: center;
   background-color: #fff;
