@@ -101,6 +101,15 @@ img::selection {
 img::-moz-selection {
   background: transparent;
 }
+.card{
+  margin: 7px;
+  width: 22rem;
+  display: inline-block;
+}
+.card-img-top{
+  height: 300px;
+  display: inline-block;
+}
 
 #mainNav {
   background-color: #212529;
@@ -172,7 +181,7 @@ img::-moz-selection {
 header.masthead {
   text-align: center;
   color: white;
-  background-image: url("../img/header-bg.jpg");
+  background-image: url("../img/about_banner.png");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -180,11 +189,6 @@ header.masthead {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-}
-
-
-
-header.masthead .intro-text {
 }
 
 header.masthead .intro-text .intro-lead-in {
@@ -275,6 +279,7 @@ header.masthead .intro-text .intro-heading {
   background-color: black;
   color: white;
   border-radius: 5px;
+  margin-bottom: 50px;
 }
 .portfolio-modal {
   padding-right: 0px !important;
