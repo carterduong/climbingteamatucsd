@@ -614,6 +614,19 @@ section#faq {
     padding: 50px;
 }
 
+#accordion {
+  margin: auto;
+}
+
+.sponsor {
+  height: 60px;
+  padding: 10px;
+}
+
+.copyright {
+
+}
+
 footer {
   padding: 25px 0;
   text-align: center;
