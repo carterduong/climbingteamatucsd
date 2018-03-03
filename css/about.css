@@ -726,6 +726,11 @@ footer span.copyright {
   font-family: Futura, "Trebuchet MS", Arial, sans-serif;
 }
 
+.sponsor {
+  height: 60px;
+  padding: 10px;
+}
+
 footer ul.quicklinks {
   font-size: 90%;
   line-height: 40px;
