@@ -197,6 +197,7 @@ header.masthead.faq {
 
 header.masthead.getinvolved {
   background-image: url("../img/getinvolved-header.png");
+
 }
 
 header.masthead.contactus {
@@ -223,6 +224,8 @@ header.masthead .intro-text .intro-heading {
   margin-bottom: 25px;
   font-family: Futura, "Trebuchet MS", Arial, sans-serif;
 }
+
+
 
 /*=============================*/
 
@@ -553,9 +556,11 @@ header.masthead .intro-text .intro-heading {
   margin-bottom: 0;
 }
 
-section#getinvolved .practicetimes
+#practicetimes
 {
   background-color: #212529;
+  background-size: auto;
+
 }
 
 /*=============================*/
