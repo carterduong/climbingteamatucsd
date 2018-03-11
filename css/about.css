@@ -2,6 +2,9 @@ body {
   overflow-x: hidden;
   font-family: Futura, "Trebuchet MS", Arial, sans-serif;
 }
+html{
+  overflow-x: hidden;
+}
 
 p {
   line-height: 1.75;
@@ -206,6 +209,7 @@ header.masthead.contactus {
 header.masthead .intro-text {
   padding-top: 150px;
   padding-bottom: 100px;
+  width: 100%;
 }
 
 header.masthead .intro-text .intro-lead-in {
@@ -223,6 +227,7 @@ header.masthead .intro-text .intro-heading {
   margin-bottom: 25px;
   font-family: Futura, "Trebuchet MS", Arial, sans-serif;
 }
+
 
 /*=============================*/
 
@@ -373,8 +378,13 @@ header.masthead .intro-text .intro-heading {
     display: inline-block;
     background-color: transparent;
     border: transparent;
+    margin-right: -105px;
   }
-
+  .card-memberLast {
+  display: inline-block;
+  background-color: transparent;
+  border: transparent;
+  }
 }
 
 /*=============================*/
