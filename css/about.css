@@ -363,6 +363,7 @@ header.masthead .intro-text .intro-heading {
   width: 230px;
   overflow: hidden;
   min-width: 230px;
+  border-radius: 5px;
 }
 
 
@@ -371,8 +372,9 @@ header.masthead .intro-text .intro-heading {
   overflow-x: scroll;
   overflow-y: hidden;
   white-space: nowrap;
-
-
+  box-shadow: 0 1px 1px 0 rgba(0,0,0,0.2);
+  background-color: white;
+  padding-top: 15px;
   }
   .card-member {
     display: inline-block;
