@@ -55,12 +55,13 @@ section h3.section-subheading {
 
 }
 
-section h3.perks-text{
+.perks-text{
   font size: 16px;
   text-transform: none;
   font-weight: normal;
   margin: auto;
   text-align: left;
+  display: inline-block;
 }
 
 section .getinvolved {
@@ -72,6 +73,9 @@ section .getinvolved {
   section {
     padding: 150px 0;
   }
+}
+.perks{
+  text-align: center;
 }
 
 .btn {
