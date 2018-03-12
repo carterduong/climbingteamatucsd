@@ -752,21 +752,6 @@ header.masthead .intro-text .intro-heading {
 }
 
 /*=============================*/
-/* iPhone SE (320x568) */
-@media (min-width: 320) {
-  .img-fluid {
-    max-width: 50%;
-  }
-
-  #horn {
-    max-width: 50%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 10px;
-    vertical-align: middle;
-  }
-}
 
 @media (min-width: 568px) {
   .timeline:before {
@@ -985,4 +970,22 @@ ul.social-buttons li a {
 
 ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
   background-color: gray;
+}
+
+/*================================================*/
+
+/* iPhone SE (320x568) */
+@media (min-width: 320px) {
+
+  #horn {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}
+
+.centerVertical {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
 }
