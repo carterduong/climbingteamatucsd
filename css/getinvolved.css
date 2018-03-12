@@ -54,9 +54,13 @@ section h3.perks-text{
   font size: 16px;
   text-transform: none;
   font-weight: normal;
-  
   margin: auto;
   text-align: left;
+}
+
+section .getinvolved {
+  padding-bottom: 0px;
+
 }
 
 @media (min-width: 768px) {
@@ -119,7 +123,7 @@ img::-moz-selection {
   text-transform: uppercase;
   color: white;
   border: 0;
-  background-color: #212529;
+  background-color: gray;
   font-family: Futura, "Trebuchet MS", Arial, sans-serif;
 }
 
@@ -565,12 +569,7 @@ header.masthead .intro-text .intro-heading {
   margin-bottom: 0;
 }
 
-#practicetimes
-{
-  background-color: #212529;
-  background-size: auto;
 
-}
 
 /*=============================*/
 
@@ -782,3 +781,10 @@ ul.social-buttons li a {
 ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
   background-color: gray;
 }
+
+#practicetimes
+{
+  background-color: #212529;
+  background-size: 500px;
+  background-repeat: no-repeat;
+  }
