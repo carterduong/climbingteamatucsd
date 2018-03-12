@@ -935,8 +935,8 @@ footer {
 }
 
 footer span.copyright {
-  font-size: 90%;
-  line-height: 40px;
+  font-size: 65%;
+  line-height: 35px;
   text-transform: none;
   font-family: Futura, "Trebuchet MS", Arial, sans-serif;
 }
@@ -974,18 +974,26 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 
 /*================================================*/
 
-/* iPhone SE (320x568) */
-@media (min-width: 320px) {
+#getConnected {
+  top: 30px;
+  text-align: left;
+}
 
+/* iPhone SE (320x568) */
+@media (max-width: 414px) {
   #horn {
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+  }
+
+  #getConnected {
+    top: 20px;
+    text-align: center;
   }
 }
 
-.centerVertical {
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
+footer {
+  color: white;
 }
