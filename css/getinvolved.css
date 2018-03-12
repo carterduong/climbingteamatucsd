@@ -50,6 +50,10 @@ section h3.section-subheading {
 
 }
 
+section#teamrequirements.bg-light {
+  padding-top: 5%;
+}
+
 @media (min-width: 768px) {
   section {
     padding: 150px 0;
