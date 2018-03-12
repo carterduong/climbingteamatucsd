@@ -50,8 +50,13 @@ section h3.section-subheading {
 
 }
 
-section#teamrequirements.bg-light {
-  padding-top: 5%;
+section h3.perks-text{
+  font size: 16px;
+  text-transform: none;
+  font-weight: normal;
+  
+  margin: auto;
+  text-align: left;
 }
 
 @media (min-width: 768px) {
