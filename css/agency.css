@@ -115,7 +115,7 @@ img::-moz-selection {
   text-transform: uppercase;
   color: white;
   border: 0;
-  background-color: gray;
+  background-color: transparent;
   font-family: Futura, "Trebuchet MS", Arial, sans-serif;
 }
 
