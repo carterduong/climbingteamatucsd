@@ -18,6 +18,10 @@ a:hover {
 .text-primary {
   color: gray !important;
 }
+.logo{
+  height: 30px;
+  width: 107px;
+}
 
 h1,
 h2,
