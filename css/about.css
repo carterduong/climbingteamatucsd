@@ -103,7 +103,7 @@ img::-moz-selection {
 }
 
 #mainNav {
-  background-color: #212529;
+  background-color: black;
 }
 
 #mainNav .navbar-toggler {
@@ -118,12 +118,12 @@ img::-moz-selection {
 }
 
 #mainNav .navbar-brand {
-  color: gray;
+  color: black;
   font-family: Futura, "Trebuchet MS", Arial, sans-serif;
 }
 
 #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-  color: darkgray;
+  color: black;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
@@ -136,7 +136,7 @@ img::-moz-selection {
 }
 
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: gray;
+  color: black;
 }
 
 /*=============================*/
@@ -163,7 +163,7 @@ img::-moz-selection {
   #mainNav.navbar-shrink {
     padding-top: 0;
     padding-bottom: 0;
-    background-color: #212529;
+    background-color: black;
   }
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.25em;
@@ -186,12 +186,12 @@ header.masthead {
 }
 
 header.masthead.index {
-  background-image: url("../img/header-bg.jpg");
+  background-image: url("../img/header-bg.png");
   height: 100vh;
 }
 
 header.masthead.about {
-  background-image: url("../img/about_banner.png");
+  background-image: url("../img/about2_banner.png");
 }
 
 header.masthead.faq {
