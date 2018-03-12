@@ -1,3 +1,7 @@
+$(document).ready(function(){
+  $('.carousel-test').slick()
+});
+
 (function($) {
   "use strict"; // Start of use strict
 
