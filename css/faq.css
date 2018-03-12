@@ -21,6 +21,10 @@ a:hover {
 .text-primary {
   color: gray !important;
 }
+.logo{
+  height: 30px;
+  width: 107px;
+}
 
 h1,
 h2,
@@ -265,6 +269,24 @@ section#faq {
 
 #accordion {
   margin: auto;
+  width: 100%;
+  text-align: left;
+}
+.card{
+
+}
+.btn{
+  width: 80%;
+  box-sizing: border-box;
+}
+.btn-link{
+  width: 80%;
+  box-sizing: border-box;
+}
+.collapsed{
+  width: 80%;
+  box-sizing: border-box;
+  text-align: left;
 }
 
 .sponsor {

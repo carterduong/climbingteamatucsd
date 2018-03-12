@@ -2,7 +2,9 @@ body {
   overflow-x: hidden;
   font-family: Futura, "Trebuchet MS", Arial, sans-serif;
 }
-
+html{
+  overflow-x: hidden;
+}
 p {
   line-height: 1.75;
 }
@@ -18,7 +20,10 @@ a:hover {
 .text-primary {
   color: gray !important;
 }
-
+.logo{
+  height: 30px;
+  width: 107px;
+}
 h1,
 h2,
 h3,
@@ -50,19 +55,27 @@ section h3.section-subheading {
 
 }
 
-section h3.perks-text{
+.perks-text{
   font size: 16px;
   text-transform: none;
   font-weight: normal;
-  
   margin: auto;
   text-align: left;
+  display: inline-block;
+}
+
+section .getinvolved {
+  padding-bottom: 0px;
+
 }
 
 @media (min-width: 768px) {
   section {
     padding: 150px 0;
   }
+}
+.perks{
+  text-align: center;
 }
 
 .btn {
@@ -119,7 +132,7 @@ img::-moz-selection {
   text-transform: uppercase;
   color: white;
   border: 0;
-  background-color: #212529;
+  background-color: gray;
   font-family: Futura, "Trebuchet MS", Arial, sans-serif;
 }
 
@@ -565,12 +578,7 @@ header.masthead .intro-text .intro-heading {
   margin-bottom: 0;
 }
 
-#practicetimes
-{
-  background-color: #212529;
-  background-size: auto;
 
-}
 
 /*=============================*/
 
@@ -782,3 +790,9 @@ ul.social-buttons li a {
 ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
   background-color: gray;
 }
+
+#practicetimes
+{
+  background-color: #212529;
+  background-size: 500px;
+  }

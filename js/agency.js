@@ -25,21 +25,19 @@
     target: '#mainNav',
     offset: 56
   });
-
-  // Collapse Navbar
-  /*var navbarCollapse = function() {
-    if ($("#mainNav").offset().top > 100) {
-      $("#mainNav").addClass("navbar-shrink");
-    } else {
-      $("#mainNav").removeClass("navbar-shrink");
-    }
-  };
-  // Collapse now if page is not at top
-  navbarCollapse();
-  // Collapse the navbar when page is scrolled
-  $(window).scroll(navbarCollapse);
-  */
-  // Hide navbar when modals trigger
+var clickedBuffer=null;
+function overviewPane(obj){
+    if typeOf(clickedBuffer) === null {
+      obj.className='active';
+   }
+  else{
+                 /* note the class name contains a black character  before and after the word !! */
+                clickedBuffer.className.replace(' active ','');
+               obj.className= obj.className + ' active ';
+  }
+  clickedBuffer=obj;
+  return false; /* ONLY if you want the  button not to lead to another HTML doc*/
+}
   $('.portfolio-modal').on('show.bs.modal', function(e) {
     $(".navbar").addClass("d-none");
   })
