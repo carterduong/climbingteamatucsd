@@ -92,6 +92,7 @@ section .getinvolved {
   border-color: #D3743B;
   border-radius: 50px;
 
+
 }
 
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
@@ -785,7 +786,7 @@ ul.social-buttons li a {
   color: white;
   border-radius: 100%;
   outline: none;
-  background-color: #7d7d7e;
+  background-color: #D3743B;
 }
 
 ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
@@ -795,7 +796,7 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 /*==========================*/
 
 #practicetimes {
-  background-color: #212529;
+  background-color: #D3743B;
   background-size: 500px;
 }
 
