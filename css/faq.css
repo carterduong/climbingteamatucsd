@@ -21,6 +21,10 @@ a:hover {
 .text-primary {
   color: gray !important;
 }
+.logo{
+  height: 30px;
+  width: 107px;
+}
 
 h1,
 h2,
@@ -112,9 +116,9 @@ img::-moz-selection {
   right: 0;
   padding: 13px;
   text-transform: uppercase;
-  color: white;
+  color: orange;
   border: 0;
-  background-color: gray;
+  background-color: transparent;
   font-family: Futura, "Trebuchet MS", Arial, sans-serif;
 }
 

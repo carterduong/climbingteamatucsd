@@ -18,6 +18,10 @@ a:hover {
 .text-primary {
   color: gray !important;
 }
+.logo{
+  height: 30px;
+  width: 107px;
+}
 
 h1,
 h2,
@@ -59,16 +63,23 @@ section h3.section-subheading {
 .btn {
   font-family: Futura, "Trebuchet MS", Arial, sans-serif;
   font-weight: 700;
+
 }
 
 .btn-xl {
   font-size: 18px;
-  padding: 20px 40px;
+  padding: 10px 30px;
 }
 
 .btn-primary {
-  background-color: gray;
-  border-color: gray;
+
+  background-color: #D3743B;
+  border-color: #D3743B;
+  border-radius: 50px;
+  margin-top: 350px;
+
+
+
 }
 
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
@@ -76,6 +87,8 @@ section h3.section-subheading {
   background-color: darkgray !important;
   border-color: darkgray !important;
   color: white;
+
+
 }
 
 .btn-primary:active, .btn-primary:focus {
@@ -101,7 +114,7 @@ img::-moz-selection {
 }
 
 #mainNav {
-  background-color: #212529;
+  background-color: black;
 }
 
 #mainNav .navbar-toggler {
@@ -109,9 +122,9 @@ img::-moz-selection {
   right: 0;
   padding: 13px;
   text-transform: uppercase;
-  color: white;
+  color: orange;
   border: 0;
-  background-color: gray;
+  background-color: transparent;
   font-family: Futura, "Trebuchet MS", Arial, sans-serif;
 }
 

@@ -2,7 +2,9 @@ body {
   overflow-x: hidden;
   font-family: Futura, "Trebuchet MS", Arial, sans-serif;
 }
-
+html{
+  overflow-x: hidden;
+}
 p {
   line-height: 1.75;
 }
@@ -18,7 +20,10 @@ a:hover {
 .text-primary {
   color: gray !important;
 }
-
+.logo{
+  height: 30px;
+  width: 107px;
+}
 h1,
 h2,
 h3,
@@ -50,12 +55,13 @@ section h3.section-subheading {
 
 }
 
-section h3.perks-text{
+.perks-text{
   font size: 16px;
   text-transform: none;
   font-weight: normal;
   margin: auto;
   text-align: left;
+  display: inline-block;
 }
 
 section .getinvolved {
@@ -67,6 +73,9 @@ section .getinvolved {
   section {
     padding: 150px 0;
   }
+}
+.perks{
+  text-align: center;
 }
 
 .btn {
@@ -121,9 +130,9 @@ img::-moz-selection {
   right: 0;
   padding: 13px;
   text-transform: uppercase;
-  color: white;
+  color: orange;
   border: 0;
-  background-color: gray;
+  background-color: transparent;
   font-family: Futura, "Trebuchet MS", Arial, sans-serif;
 }
 

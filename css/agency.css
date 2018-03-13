@@ -14,6 +14,10 @@ a {
 a:hover {
   color: darkgray;
 }
+.logo{
+  height: 30px;
+  width: 107px;
+}
 
 .text-primary {
   color: gray !important;
@@ -101,7 +105,7 @@ img::-moz-selection {
 }
 
 #mainNav {
-  background-color: #212529;
+  background-color: black;
 }
 
 #mainNav .navbar-toggler {
@@ -111,17 +115,17 @@ img::-moz-selection {
   text-transform: uppercase;
   color: white;
   border: 0;
-  background-color: gray;
+  background-color: transparent;
   font-family: Futura, "Trebuchet MS", Arial, sans-serif;
 }
 
 #mainNav .navbar-brand {
-  color: gray;
+  color: black;
   font-family: Futura, "Trebuchet MS", Arial, sans-serif;
 }
 
 #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-  color: darkgray;
+  color: black;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
@@ -134,7 +138,7 @@ img::-moz-selection {
 }
 
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: gray;
+  color: black;
 }
 
 /*=============================*/
@@ -161,7 +165,7 @@ img::-moz-selection {
   #mainNav.navbar-shrink {
     padding-top: 0;
     padding-bottom: 0;
-    background-color: #212529;
+    background-color: black;
   }
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.25em;
@@ -188,7 +192,7 @@ header.masthead.index {
 }
 
 header.masthead.about {
-  background-image: url("../img/about_banner.png");
+  background-image: url("../img/about2_banner.png");
 }
 
 header.masthead.faq {
@@ -987,4 +991,6 @@ ul.social-buttons li a {
 
 ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
   background-color: gray;
+
+
 }
