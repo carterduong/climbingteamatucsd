@@ -745,7 +745,6 @@ section#contact :-ms-input-placeholder {
 
 footer {
   padding: 25px 0;
-  padding-bottom: -300px;
   text-align: center;
 }
 
@@ -795,11 +794,5 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 #practicetimes
 {
   background-color: #212529;
-  background-size: 1000px 1000px 1000px 1000px;
-  padding-bottom: 500px;
-
+  background-size: 500px;
   }
-
-.bg-light #teamrequirements {
-  padding-top: 5%;
-}
