@@ -47,7 +47,6 @@ section h2.section-heading {
 section h3.section-subheading {
   font-size: 16px;
   font-weight: 400;
-  font-style: italic;
   color: black;
   margin-bottom: 75px;
   text-transform: none;
@@ -56,7 +55,7 @@ section h3.section-subheading {
 }
 
 .perks-text{
-  font size: 16px;
+  font-size: 16px;
   text-transform: none;
   font-weight: normal;
   margin: auto;
@@ -784,17 +783,24 @@ ul.social-buttons li a {
   color: white;
   border-radius: 100%;
   outline: none;
-  background-color: #212529;
+  background-color: #7d7d7e;
 }
 
 ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
   background-color: gray;
 }
 
+/*==========================*/
+
 #practicetimes {
   background-color: #212529;
   background-size: 500px;
 }
+
+#requirements {
+    top: 25px;
+    text-align: left;
+  }
 
 @media (max-width: 414px) {
 
@@ -808,6 +814,12 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
   #requirements {
     top: 25px;
     text-align: center;
+  }
+
+  section h2.section-heading {
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 15px;
   }
 
 }
