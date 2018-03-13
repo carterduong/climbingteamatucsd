@@ -1003,6 +1003,11 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
     text-align: center;
   }
 
+  section h2.section-heading {
+  font-size: 30px;
+  margin-top: 0;
+  margin-bottom: 15px;
+  }
 }
 
 .centerVertical {
