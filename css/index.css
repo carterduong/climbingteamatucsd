@@ -988,14 +988,21 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 
 /*================================================*/
 
-/* iPhone SE (320x568) */
-@media (min-width: 320px) {
+/* iPhone 8 Plus (414x736) */
+@media (max-width: 414px) {
 
   #horn {
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
   }
+
+  #getConnected {
+    top: 25px;
+    text-align: center;
+  }
+
 }
 
 .centerVertical {
