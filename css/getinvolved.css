@@ -88,8 +88,10 @@ section .getinvolved {
 }
 
 .btn-primary {
-  background-color: gray;
-  border-color: gray;
+  background-color: #D3743B;
+  border-color: #D3743B;
+  border-radius: 50px;
+
 }
 
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
