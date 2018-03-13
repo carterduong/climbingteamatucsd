@@ -122,12 +122,12 @@ img::-moz-selection {
 }
 
 #mainNav .navbar-brand {
-  color: black;
+  color: gray;
   font-family: Futura, "Trebuchet MS", Arial, sans-serif;
 }
 
 #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-  color: black;
+  color: darkgray;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
@@ -140,10 +140,8 @@ img::-moz-selection {
 }
 
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: black;
+  color: gray;
 }
-
-/*=============================*/
 
 @media (min-width: 992px) {
   #mainNav {
@@ -167,7 +165,7 @@ img::-moz-selection {
   #mainNav.navbar-shrink {
     padding-top: 0;
     padding-bottom: 0;
-    background-color: black;
+    background-color: #212529;
   }
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.25em;

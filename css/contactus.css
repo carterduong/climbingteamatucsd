@@ -103,9 +103,6 @@ img::-moz-selection {
   background: transparent;
 }
 
-#mainNav {
-  background-color: #212529;
-}
 
 #mainNav .navbar-toggler {
   font-size: 12px;
@@ -139,8 +136,6 @@ img::-moz-selection {
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
   color: gray;
 }
-
-/*=============================*/
 
 @media (min-width: 992px) {
   #mainNav {
