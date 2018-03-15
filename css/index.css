@@ -41,6 +41,7 @@ section h2.section-heading {
   font-size: 40px;
   margin-top: 0;
   margin-bottom: 15px;
+  background-color: #D3743B;
 }
 
 section h3.section-subheading {
@@ -76,8 +77,7 @@ section h3.section-subheading {
   background-color: #D3743B;
   border-color: #D3743B;
   border-radius: 50px;
-  margin-top: 350px;
-
+  margin-top: 150px;
 }
 
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
@@ -253,7 +253,29 @@ header.masthead .intro-text .intro-heading {
     margin-bottom: 50px;
     font-family: Futura, "Trebuchet MS", Arial, sans-serif;
   }
+  .lead{
+    margin-top: -100px;
+    margin-bottom: 50px;
+  }
+  .card{
+    margin: 0;
+  }
 
+}
+.title{
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  margin-bottom: 50px;
+}
+.card{
+  margin: 7px;
+  width: 22rem;
+  display: inline-block;
+}
+.card-img-top{
+  height: 300px;
+  display: inline-block;
 }
 
 .service-heading {
@@ -996,6 +1018,7 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
   #getConnected {
     top: 25px;
     text-align: center;
+    background-color: #D3743B;
   }
 
   section h2.section-heading {
