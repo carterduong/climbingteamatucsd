@@ -116,7 +116,7 @@ img::-moz-selection {
 }
 
 #mainNav {
-  background-color: black;
+  background-color: #442D24;
 }
 
 #mainNav .navbar-toggler {
@@ -231,11 +231,15 @@ header.masthead .intro-text .intro-lead-in {
 }
 
 header.masthead .intro-text .intro-heading {
+  display: inline;
+  text-align: center;
+  font-family: "futura-pt", Futura, "Trebuchet MS", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 300;
   font-size: 50px;
-  font-weight: 700;
-  line-height: 50px;
+  line-height: 63px;
   margin-bottom: 25px;
-  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+  background-color: #D18F39;
 }
 
 @media (min-width: 768px) {
@@ -266,11 +270,10 @@ header.masthead .intro-text .intro-heading {
   }
 
 }
+
 .title{
-  background-color: black;
-  color: white;
-  border-radius: 5px;
-  margin-bottom: 50px;
+  color: #9DB132;
+  margin-bottom: 30px;
 }
 .card{
   margin: 7px;
@@ -1026,10 +1029,19 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
   }
 
   section h2.section-heading {
-  font-size: 30px;
-  margin-top: 0;
-  margin-bottom: 15px;
+    font-size: 40px;
+    margin-top: 0;
   }
+
+  h4.card-title {
+    padding: 10px 14px 0px 10px;
+  }
+
+  p.card-text {
+    padding: 0px 10px 0px 10px;
+  }
+
+
 }
 
 .centerVertical {
