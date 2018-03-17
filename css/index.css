@@ -1035,3 +1035,7 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
   top: 50%;
   transform: translateY(-50%);
 }
+
+.card-block {
+  color: white; 
+}
