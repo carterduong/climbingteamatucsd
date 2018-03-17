@@ -217,7 +217,9 @@ header.masthead .intro-text .intro-heading {
 /*=============================*/
 
 .section-heading{
-  padding: 20px;
+  padding: 30px;
+  color: #D18F39;
+  font-size: 40px;
 }
 
 #portfolio .portfolio-item {
