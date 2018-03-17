@@ -2,7 +2,9 @@ body {
   overflow-x: hidden;
   font-family: "futura-pt", Futura, "Trebuchet MS", Arial, sans-serif;
 }
-
+html{
+  overflow-x: hidden;
+}
 p {
   line-height: 1.75;
 }

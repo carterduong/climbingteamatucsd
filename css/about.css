@@ -275,6 +275,7 @@ header.masthead .intro-text .intro-heading {
 .card-img-top{
   height: 300px;
   display: inline-block;
+  border-radius: 0;
 }
 
 /*=============================*/
