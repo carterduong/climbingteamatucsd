@@ -1,6 +1,6 @@
 body {
   overflow-x: hidden;
-  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+  font-family: "futura-pt", Futura, "Trebuchet MS", Arial, sans-serif;
 }
 html{
   overflow-x: hidden;
@@ -39,9 +39,11 @@ section {
 }
 
 section h2.section-heading {
-  font-size: 40px;
+  font-size: 60px;
   margin-top: 0;
   margin-bottom: 15px;
+  color: #442D24;
+  text-align: center;
 }
 
 section h3.section-subheading {
@@ -68,6 +70,7 @@ section .getinvolved {
 
 }
 
+
 @media (min-width: 768px) {
   section {
     padding: 150px 0;
@@ -88,15 +91,15 @@ section .getinvolved {
 }
 
 .btn-primary {
-  background-color: #D3743B;
-  border-color: #D3743B;
+  background-color: #442D24;
+  border-color: #442D24;
   border-radius: 50px;
 
 }
 
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
-  background-color: darkgray!important;
-  border-color: darkgray !important;
+  background-color: #84902D!important;
+  border-color: #84902D!important;
   color: white;
 }
 
@@ -123,7 +126,7 @@ img::-moz-selection {
 }
 
 #mainNav {
-  background-color: #212529;
+  background-color: #442D24;
 }
 
 #mainNav .navbar-toggler {
@@ -143,7 +146,7 @@ img::-moz-selection {
 }
 
 #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-  color: darkgray;
+  color: #442D24;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
@@ -169,7 +172,7 @@ img::-moz-selection {
     -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
     transition: padding-top 0.3s, padding-bottom 0.3s;
     border: none;
-    background-color: #212529;
+    background-color: #442D24;
   }
   #mainNav .navbar-brand {
     font-size: 1.75em;
@@ -183,7 +186,7 @@ img::-moz-selection {
   #mainNav.navbar-shrink {
     padding-top: 0;
     padding-bottom: 0;
-    background-color: #212529;
+    background-color: #442D24;
   }
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.25em;
@@ -219,8 +222,10 @@ header.masthead.faq {
 }
 
 header.masthead.getinvolved {
-  background-image: url("../img/getinvolved-header.png");
+  background-image: linear-gradient(rgba(209, 143, 57, 0.25), rgba(209, 143, 57, 0.25)), 
+  url("../img/getinvolved-header.png");
 
+  
 }
 
 header.masthead.contactus {
@@ -237,7 +242,7 @@ header.masthead .intro-text .intro-lead-in {
   font-style: italic;
   line-height: 22px;
   margin-bottom: 25px;
-  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+  font-family: "futura-pt", Futura, "Trebuchet MS", Arial, sans-serif;
 }
 
 header.masthead .intro-text .intro-heading {
@@ -245,7 +250,11 @@ header.masthead .intro-text .intro-heading {
   font-weight: 700;
   line-height: 50px;
   margin-bottom: 25px;
-  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+  font-family: "futura-pt", Futura, "Trebuchet MS", Arial, sans-serif;
+  display: inline-block;
+  background-color: rgba(132, 144, 45, .7);
+
+
 }
 
 
@@ -262,14 +271,14 @@ header.masthead .intro-text .intro-heading {
     font-style: italic;
     line-height: 40px;
     margin-bottom: 25px;
-    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+    font-family: "futura-pt", Futura, "Trebuchet MS", Arial, sans-serif;
   }
   header.masthead .intro-text .intro-heading {
     font-size: 75px;
     font-weight: 700;
     line-height: 75px;
     margin-bottom: 50px;
-    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+    font-family: "futura-pt", Futura, "Trebuchet MS", Arial, sans-serif;
   }
   .lead{
     margin-top: -100px;
@@ -413,7 +422,7 @@ header.masthead .intro-text .intro-heading {
   font-size: 16px;
   font-style: italic;
   margin: 20px 0 30px;
-  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+  font-family:"futura-pt", Futura, "Trebuchet MS", Arial, sans-serif;
 }
 
 .portfolio-modal .modal-content ul.list-inline {
