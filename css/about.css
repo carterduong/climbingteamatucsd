@@ -1,6 +1,6 @@
 body {
   overflow-x: hidden;
-  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+  font-family: "futura-pt", Futura, "Trebuchet MS", Arial, sans-serif;
 }
 html{
   overflow-x: hidden;
@@ -18,74 +18,20 @@ a:hover {
   color: gray;
 }
 
-.text-primary {
-  color: gray !important;
-}
 .logo{
   height: 30px;
   width: 107px;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-weight: 700;
-  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
-}
-
 section {
-  padding: 100px 0;
+  padding: 20px 0;
 }
 
-section h2.section-heading {
-  font-size: 40px;
-  margin-top: 60px;
-  margin-bottom: 30px;
-}
-
-section h3.section-subheading {
-  font-size: 16px;
-  font-weight: 400;
-  font-style: italic;
-  color: white;
-  margin-bottom: 75px;
-  text-transform: none;
-  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
-
-}
 
 @media (min-width: 768px) {
   section {
-    padding: 150px 0;
+    padding: 40px 0;
   }
-}
-
-.btn {
-  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
-  font-weight: 700;
-}
-
-.btn-xl {
-  font-size: 18px;
-  padding: 20px 40px;
-}
-
-.btn-primary {
-  background-color: gray;
-  border-color: gray;
-}
-
-.btn-primary:active, .btn-primary:focus, .btn-primary:hover {
-  background-color: darkgray!important;
-  border-color: darkgray !important;
-  color: white;
-}
-
-.btn-primary:active, .btn-primary:focus {
-  box-shadow: 0 0 0 0.2rem rgba(254, 209, 55, 0.5) !important;
 }
 
 ::-moz-selection {
@@ -214,19 +160,12 @@ header.masthead .intro-text {
   width: 100%;
 }
 
-header.masthead .intro-text .intro-lead-in {
-  font-size: 22px;
-  font-style: italic;
-  line-height: 22px;
-  margin-bottom: 25px;
-  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
-}
+
 
 header.masthead .intro-text .intro-heading {
   font-size: 50px;
   font-weight: 700;
   line-height: 50px;
-  margin-bottom: 25px;
   font-family: Futura, "Trebuchet MS", Arial, sans-serif;
 }
 
@@ -242,22 +181,13 @@ header.masthead .intro-text .intro-heading {
     font-size: 40px;
     font-style: italic;
     line-height: 40px;
-    margin-bottom: 25px;
     font-family: Futura, "Trebuchet MS", Arial, sans-serif;
   }
   header.masthead .intro-text .intro-heading {
     font-size: 75px;
     font-weight: 700;
     line-height: 75px;
-    margin-bottom: 50px;
     font-family: Futura, "Trebuchet MS", Arial, sans-serif;
-  }
-  .lead{
-    margin-top: -100px;
-    margin-bottom: 50px;
-  }
-  .card{
-    margin: 0;
   }
 
 }
@@ -265,7 +195,6 @@ header.masthead .intro-text .intro-heading {
   background-color: black;
   color: white;
   border-radius: 5px;
-  margin-bottom: 50px;
 }
 .card{
   margin: 7px;
@@ -277,12 +206,20 @@ header.masthead .intro-text .intro-heading {
   display: inline-block;
   border-radius: 0;
 }
+.about-text{
+  font-weight: 300;
+  font-style: normal;
+  color: #442D24;
+  font-size: 25px;
+  padding: 20px;
 
+}
 /*=============================*/
 
-.service-heading {
-  margin: 15px 0;
-  text-transform: none;
+.section-heading{
+  padding: 30px;
+  color: #D18F39;
+  font-size: 40px;
 }
 
 #portfolio .portfolio-item {
