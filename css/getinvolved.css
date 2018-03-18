@@ -9,6 +9,11 @@ p {
   line-height: 1.75;
 }
 
+p .perks-text {
+  font-size: 2em;
+  color: brown;
+}
+
 a {
   color: gray;
 }
@@ -56,7 +61,20 @@ section h3.section-subheading {
 
 }
 
-.perks-text{
+section .getinvolved {
+  padding-bottom: 0px;
+
+}
+
+section .img-responsive {
+  max-height: 50%;
+  max-width: 50%;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+section .perks-text{
   font-size: 16px;
   text-transform: none;
   font-weight: normal;
@@ -65,11 +83,11 @@ section h3.section-subheading {
   display: inline-block;
 }
 
-section .getinvolved {
-  padding-bottom: 0px;
-
+#centered {
+  position: absolute;
+  top: 50%;
+  bottom: 50%;
 }
-
 
 @media (min-width: 768px) {
   section {
@@ -300,10 +318,23 @@ header.masthead .intro-text .intro-heading {
   width: 22rem;
   display: inline-block;
   padding: 20px;
+  background: transparent;
+  border-style: solid;
+  border-width: 5px;
+  border-color: white;
 }
 .card-img-top{
   height: 300px;
   display: inline-block;
+}
+
+.card-title {
+  font-size: 25px;
+}
+
+.card-text{
+  font-size: 25px;
+
 }
 
 /*=============================*/
@@ -805,8 +836,8 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 /*==========================*/
 
 #practicetimes {
-  background-color: #D3743B;
-  background-size: 500px;
+  background-color: #84902D;
+  background-size: 700px 700px;
 }
 
 #requirements {
