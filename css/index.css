@@ -78,7 +78,6 @@ section h3.section-subheading {
 .btn {
   font-family: "futura-pt", Futura, "Trebuchet MS", Arial, sans-serif;
   font-weight: 700;
-
 }
 
 .btn-xl {
@@ -111,12 +110,9 @@ section h3.section-subheading {
 }
 
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
-  
   background-color: darkgray !important;
   border-color: darkgray !important;
   color: white;
-
-
 }
 
 .btn-primary:active, .btn-primary:focus {
@@ -263,10 +259,10 @@ header.masthead .intro-text .intro-heading {
   font-style: normal;
   font-weight: 700;
   font-size: 50px;
-  line-height: 63px;
+  line-height: 64px;
+  margin-top: 100px;
   margin-bottom: 25px;
-  background-color: #D18F39;
-  background-color: rgba(132, 144, 45, .7);
+  background-color: rgba(211, 116, 59, .7);
 }
 
 @media (min-width: 768px) {
