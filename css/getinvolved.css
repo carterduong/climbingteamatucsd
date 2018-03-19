@@ -70,7 +70,7 @@ section .getinvolved {
 .caption {
   position: relative;
   top: 50%;
-  transform: (-50%);
+  transform: translateY(-50%);
 }
 .caption-text{
   color: #D18F39;
@@ -263,6 +263,7 @@ header.masthead.getinvolved {
 
 header.masthead.contactus {
   background-image: url("../img/contactus-header.png");
+  background-size: cover;
 }
 
 header.masthead .intro-text {
