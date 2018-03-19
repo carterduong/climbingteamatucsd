@@ -195,6 +195,8 @@ header.masthead .intro-text .intro-heading {
   }
 
 }
+
+
 .title{
   background-color: black;
   color: white;
@@ -388,6 +390,10 @@ footer ul.quicklinks {
   margin-bottom: 0;
   text-transform: none;
   font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+}
+
+.mountain {
+  margin-bottom: -10px;
 }
 
 ul.social-buttons {

@@ -736,8 +736,8 @@ footer {
   padding: 25px 0;
   text-align: center;
   background-color: #D18F39;
-  background-image: url("../img/mountain.png");
-  background-size: 70% 100%;
+  /*background-image: url("../img/mountain2.png");*/
+  background-size: 30%;
   background-repeat: no-repeat;
 }
 
@@ -759,6 +759,10 @@ footer ul.quicklinks {
   margin-bottom: 0;
   text-transform: none;
   font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+}
+
+.mountain {
+  margin-bottom: -25px;
 }
 
 ul.social-buttons {
