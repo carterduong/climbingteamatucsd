@@ -36,7 +36,7 @@ section {
 
 section h2.section-heading {
   font-size: 60px;
-  margin-top: 0;
+  margin-top: -70px;
   margin-bottom: 15px;
   color: #442D24;
   text-align: center;
@@ -367,12 +367,13 @@ header.masthead .intro-text .intro-heading {
 .card-requirement{
   margin: 16px;
   width: 50rem;
-  height: 3rem;
+  height: auto;
   display: inline-block;
   padding: 10px;
   background: #F9F1E7;  
   text-align: center;
   font-size: 20px;
+  box-shadow: -5px 0 0 #D18F39, 5px 0 0 #D18F39;
 
 }
 
@@ -435,7 +436,7 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 }
 
 
-@media (max-width: 414px) {
+@media (max-width: 800px) {
 
   #clipboard {
     display: block;
@@ -449,21 +450,21 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
     text-align: center;
   }
 
-.card-requirement{
-  margin: 16px;
-  width: 18rem;
-  height: 4rem;
-  display: inline-block;
-  padding: 10px;
-  background: #F9F1E7;  
-  text-align: center;
-  font-size: 15px;
+  .card-requirement{
+    margin: 16px;
+    width: 18rem;
+    height: auto;
+    display: inline-block;
+    padding: 10px;
+    background: #F9F1E7;  
+    text-align: center;
+    font-size: 20px;
 
-}
+  }
 
   section h2.section-heading {
     font-size: 30px;
-    margin-top: 0;
+    margin-top: -50px;
     margin-bottom: 15px;
   }
 
