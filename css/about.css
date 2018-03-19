@@ -156,8 +156,9 @@ header.masthead.contactus {
 }
 
 header.masthead .intro-text {
-  padding-top: 150px;
-  padding-bottom: 100px;
+  margin-top: 50px;
+  padding-top: 120px;
+  padding-bottom: 150px;
   width: 100%;
 }
 
@@ -178,8 +179,9 @@ header.masthead .intro-text .intro-heading {
 
 @media (min-width: 768px) {
   header.masthead .intro-text {
-    padding-top: 300px;
-    padding-bottom: 200px;
+    margin-top: 50px;
+    padding-top: 210px;
+    padding-bottom: 240px;
   }
   header.masthead .intro-text .intro-lead-in {
     font-size: 40px;
