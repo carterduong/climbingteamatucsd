@@ -732,12 +732,13 @@ section#contact :-ms-input-placeholder {
   font-family: Futura, "Trebuchet MS", Arial, sans-serif;
 }
 
-
-
 footer {
   padding: 25px 0;
   text-align: center;
   background-color: #D18F39;
+  background-image: url("../img/mountain.png");
+  background-size: 70% 100%;
+  background-repeat: no-repeat;
 }
 
 footer span.copyright {

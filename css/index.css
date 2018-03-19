@@ -231,8 +231,13 @@ header.masthead {
 }
 
 header.masthead.index {
-  background-image: url("../img/header-bg.jpg");
-  height: 100vh;
+  background-image: linear-gradient(rgba(209, 143, 57, 0.5), rgba(209, 143, 57, 0)),
+  url("../img/header-bg.jpg");
+  background-repeat: no-repeat;
+  min-height: 100%;
+  width: 100%;
+  height: auto;
+
 }
 
 header.masthead.about {
@@ -271,10 +276,10 @@ header.masthead .intro-text .intro-heading {
   font-style: normal;
   font-weight: 700;
   font-size: 50px;
-  line-height: 64px;
+  line-height: 84px;
   margin-top: 100px;
   margin-bottom: 25px;
-  background-color: rgba(211, 116, 59, .7);
+  background-color: rgba(68, 45, 36, 0.6);
 }
 
 @media (min-width: 768px) {
@@ -328,67 +333,7 @@ header.masthead .intro-text .intro-heading {
   text-transform: none;
 }
 
-section#contact {
-  background-color: #212529;
-  background-repeat: no-repeat;
-  background-position: center;
-}
 
-section#contact .section-heading {
-  color: white;
-}
-
-section#contact .form-group {
-  margin-bottom: 25px;
-}
-
-section#contact .form-group input,
-section#contact .form-group textarea {
-  padding: 20px;
-}
-
-section#contact .form-group input.form-control {
-  height: auto;
-}
-
-section#contact .form-group textarea.form-control {
-  height: 248px;
-}
-
-section#contact .form-control:focus {
-  border-color: gray;
-  box-shadow: none;
-}
-
-section#contact ::-webkit-input-placeholder {
-  font-weight: 700;
-  color: #ced4da;
-  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
-}
-
-section#contact :-moz-placeholder {
-  font-weight: 700;
-  color: #ced4da;
-  /* Firefox 18- */
-  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
-}
-
-section#contact ::-moz-placeholder {
-  font-weight: 700;
-  color: #ced4da;
-  /* Firefox 19+ */
-  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
-}
-
-section#contact :-ms-input-placeholder {
-  font-weight: 700;
-  color: #ced4da;
-  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
-}
-
-section #faq {
-  padding: 50px;
-}
 
 #accordion {
   margin: auto;
