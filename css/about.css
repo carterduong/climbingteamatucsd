@@ -53,7 +53,7 @@ img::-moz-selection {
 }
 
 #mainNav {
-  background-color: black;
+  background-color: #442D24;
 }
 
 #mainNav .navbar-toggler {
@@ -97,7 +97,7 @@ img::-moz-selection {
     -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
     transition: padding-top 0.3s, padding-bottom 0.3s;
     border: none;
-    background-color: #212529;
+    background-color: #442D24;
   }
   #mainNav .navbar-brand {
     font-size: 1.75em;
@@ -111,7 +111,7 @@ img::-moz-selection {
   #mainNav.navbar-shrink {
     padding-top: 0;
     padding-bottom: 0;
-    background-color: #212529;
+    background-color: #442D24;
   }
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.25em;
@@ -359,6 +359,7 @@ header.masthead .intro-text .intro-heading {
 footer {
   padding: 25px 0;
   text-align: center;
+  background-color: #D18F39;
 }
 
 footer span.copyright {
@@ -397,7 +398,7 @@ ul.social-buttons li a {
   color: white;
   border-radius: 100%;
   outline: none;
-  background-color: #7d7d7e;
+  background-color: #442D24;
 }
 
 ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
