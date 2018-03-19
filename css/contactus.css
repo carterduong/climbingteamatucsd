@@ -206,6 +206,8 @@ header.masthead.getinvolved {
 
 header.masthead.contactus {
   background-image: url("../img/contactus-header.png");
+  background-image: linear-gradient(rgba(209, 143, 57, 0.7), rgba(209, 143, 57, 0.25)), 
+  url("../img/contactus-header.png");
 }
 
 header.masthead .intro-text {
