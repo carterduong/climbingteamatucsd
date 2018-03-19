@@ -736,8 +736,13 @@ footer {
   padding: 25px 0;
   text-align: center;
   background-color: #D18F39;
+<<<<<<< HEAD
   /*background-image: url("../img/mountain2.png");*/
   background-size: 30%;
+=======
+  background-image: url("../img/mountain-footer.png");
+  background-size: 50% 100%;
+>>>>>>> 3edc32f81f8cba9becb3f04fee38eba4d1623524
   background-repeat: no-repeat;
 }
 
