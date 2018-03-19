@@ -97,7 +97,7 @@ img::-moz-selection {
 }
 
 #mainNav {
-  background-color: black;
+  background-color: #442D24;
 }
 
 #mainNav .navbar-toggler {
@@ -140,7 +140,7 @@ img::-moz-selection {
     -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
     transition: padding-top 0.3s, padding-bottom 0.3s;
     border: none;
-    background-color: #212529;
+    background-color: #442D24;
   }
   #mainNav .navbar-brand {
     font-size: 1.75em;
@@ -154,7 +154,7 @@ img::-moz-selection {
   #mainNav.navbar-shrink {
     padding-top: 0;
     padding-bottom: 0;
-    background-color: #212529;
+    background-color: #442D24;
   }
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.25em;
@@ -211,15 +211,18 @@ header.masthead .intro-text .intro-lead-in {
   line-height: 22px;
   margin-bottom: 25px;
   font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+  display: inline-block;
 }
 
 header.masthead .intro-text .intro-heading {
   font-size: 50px;
-  font-weight: 700;
+  font-weight: 600;
   line-height: 50px;
   margin-bottom: 25px;
   display: inline-block;
   font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+  background-color: rgba(132, 144, 45, .7);
+  display: inline block;
 }
 
 @media (min-width: 768px) {
@@ -236,10 +239,13 @@ header.masthead .intro-text .intro-heading {
   }
   header.masthead .intro-text .intro-heading {
     font-size: 75px;
-    font-weight: 700;
+    font-weight: 600;
     line-height: 75px;
     margin-bottom: 50px;
     font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+    background-color: rgba(132, 144, 45, .7);
+    display: inline-block;
+
   }
 
 }
@@ -283,6 +289,7 @@ section#faq {
 footer {
   padding: 25px 0;
   text-align: center;
+  background-color: #D18F39;
 }
 
 footer span.copyright {
@@ -316,7 +323,7 @@ ul.social-buttons li a {
   color: white;
   border-radius: 100%;
   outline: none;
-  background-color: #7d7d7e;
+  background-color: #442D24;
 }
 
 ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {

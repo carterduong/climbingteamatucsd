@@ -349,6 +349,7 @@ header.masthead .intro-text .intro-heading {
 footer {
   padding: 25px 0;
   text-align: center;
+  background-color: #D18F39;
 }
 
 footer span.copyright {
@@ -387,7 +388,7 @@ ul.social-buttons li a {
   color: white;
   border-radius: 100%;
   outline: none;
-  background-color: #D3743B;
+  background-color: #442D24;
 }
 
 ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
