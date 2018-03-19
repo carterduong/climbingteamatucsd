@@ -2,7 +2,9 @@ body {
   overflow-x: hidden;
   font-family: Futura, "Trebuchet MS", Arial, sans-serif;
 }
-
+html{
+  overflow-x: hidden;
+}
 p {
   line-height: 1.75;
 }
@@ -233,7 +235,7 @@ header.masthead .intro-text .intro-heading {
   line-height: 50px;
   margin-bottom: 25px;
   font-family: Futura, "Trebuchet MS", Arial, sans-serif;
-  background-color: rgba(132, 144, 45, .7);
+  /*background-color: rgba(132, 144, 45, .7);*/
   display: inline-block;
   padding-right: 15px;
   padding-left: 15px;

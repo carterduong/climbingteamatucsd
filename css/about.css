@@ -167,7 +167,7 @@ header.masthead .intro-text .intro-heading {
   font-weight: 700;
   line-height: 50px;
   font-family: Futura, "Trebuchet MS", Arial, sans-serif;
-  background-color: rgba(132, 144, 45, .7);
+  /*background-color: rgba(132, 144, 45, .7);*/
   display: inline-block;
   padding-left: 15px;
   padding-right: 15px;

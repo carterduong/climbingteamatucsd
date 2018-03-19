@@ -224,7 +224,7 @@ header.masthead .intro-text .intro-heading {
   margin-bottom: 25px;
   display: inline-block;
   font-family: Futura, "Trebuchet MS", Arial, sans-serif;
-  background-color: rgba(132, 144, 45, .7);
+  /*background-color: rgba(132, 144, 45, .7);*/
 }
 
 @media (min-width: 768px) {
@@ -245,7 +245,7 @@ header.masthead .intro-text .intro-heading {
     line-height: 75px;
     margin-bottom: 50px;
     font-family: Futura, "Trebuchet MS", Arial, sans-serif;
-    background-color: rgba(132, 144, 45, .7);
+    /*background-color: rgba(132, 144, 45, .7);*/
     display: inline-block;
 
   }
