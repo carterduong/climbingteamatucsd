@@ -139,7 +139,8 @@ header.masthead.index {
 }
 
 header.masthead.about {
-  background-image: url("../img/about2_banner.png");
+  background-image: linear-gradient(rgba(209, 143, 57, 0.3), rgba(209, 143, 57, 0.3)),
+  url("../img/about2_banner.png");
 }
 
 header.masthead.faq {
@@ -167,6 +168,8 @@ header.masthead .intro-text .intro-heading {
   font-weight: 700;
   line-height: 50px;
   font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+  background-color: rgba(132, 144, 45, .7);
+  display: inline-block;
 }
 
 
