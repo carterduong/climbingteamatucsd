@@ -37,19 +37,20 @@ section {
 }
 .card{
   width: 800px;
-  padding-bottom: 20px;
   margin-bottom: 10px;
+  /*box-shadow: 2px 1px 1px #D18F39;*/
 }
 
 .question{
   background-color: transparent;
   border: none;
-  color: black;
+  color: white;
   text-align: left;
   width: auto;
+  font-family: "futura-pt", Futura, "Trebuchet MS", Arial, sans-serif;
 }
 .card-header{
-  
+  background-color: #D18F39;
 }
 @media(max-width: 780px){
   .card{
@@ -96,7 +97,7 @@ img::-moz-selection {
 }
 
 #mainNav {
-  background-color: black;
+  background-color: #442D24;
 }
 
 #mainNav .navbar-toggler {
@@ -112,7 +113,6 @@ img::-moz-selection {
 
 #mainNav .navbar-brand {
   color: gray;
-  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
 }
 
 #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
@@ -140,7 +140,7 @@ img::-moz-selection {
     -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
     transition: padding-top 0.3s, padding-bottom 0.3s;
     border: none;
-    background-color: #212529;
+    background-color: #442D24;
   }
   #mainNav .navbar-brand {
     font-size: 1.75em;
@@ -154,7 +154,7 @@ img::-moz-selection {
   #mainNav.navbar-shrink {
     padding-top: 0;
     padding-bottom: 0;
-    background-color: #212529;
+    background-color: #442D24;
   }
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.25em;
@@ -218,6 +218,7 @@ header.masthead .intro-text .intro-heading {
   font-weight: 700;
   line-height: 50px;
   margin-bottom: 25px;
+  display: inline-block;
   font-family: Futura, "Trebuchet MS", Arial, sans-serif;
 }
 

@@ -78,8 +78,8 @@ section h3.section-subheading {
 }
 
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
-  background-color: darkgray!important;
-  border-color: darkgray !important;
+  background-color: #84902D!important;
+  border-color: #84902D !important;
   color: white;
 }
 
@@ -106,7 +106,7 @@ img::-moz-selection {
 }
 
 #mainNav {
-  background-color: black;
+  background-color: #442D24;
 }
 
 #mainNav .navbar-toggler {
@@ -150,7 +150,7 @@ img::-moz-selection {
     -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
     transition: padding-top 0.3s, padding-bottom 0.3s;
     border: none;
-    background-color: #212529;
+    background-color: #442D24;
   }
   #mainNav .navbar-brand {
     font-size: 1.75em;
@@ -164,7 +164,7 @@ img::-moz-selection {
   #mainNav.navbar-shrink {
     padding-top: 0;
     padding-bottom: 0;
-    background-color: #212529;
+    background-color: #442D24;
   }
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.25em;
@@ -673,7 +673,7 @@ header.masthead .intro-text .intro-heading {
 }
 
 section#contact {
-  background-color: #212529;
+  background-color:#442D24;
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -735,6 +735,7 @@ section#contact :-ms-input-placeholder {
 footer {
   padding: 25px 0;
   text-align: center;
+  background-color: #D18F39;
 }
 
 footer span.copyright {
@@ -773,7 +774,7 @@ ul.social-buttons li a {
   color: white;
   border-radius: 100%;
   outline: none;
-  background-color: #7d7d7e;
+  background-color: #442D24;
 }
 
 ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
