@@ -240,6 +240,7 @@ header.masthead .intro-text .intro-heading {
   line-height: 63px;
   margin-bottom: 25px;
   background-color: #D18F39;
+  background-color: rgba(132, 144, 45, .7);
 }
 
 @media (min-width: 768px) {
