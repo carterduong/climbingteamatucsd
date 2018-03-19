@@ -4,6 +4,7 @@ body {
 }
 html{
   overflow-x: hidden;
+  font-family: "futura-pt", Futura, "Trebuchet MS", Arial, sans-serif;
 }
 
 p {
@@ -190,7 +191,8 @@ header.masthead .intro-text .intro-heading {
     font-size: 75px;
     font-weight: 700;
     line-height: 75px;
-    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+    margin-bottom: 50px;
+    font-family: "futura-pt", Futura, "Trebuchet MS", Arial, sans-serif;
   }
 
 }
