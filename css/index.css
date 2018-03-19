@@ -54,6 +54,7 @@ section h2.section-heading {
 section h2.section-body {
     font-weight: 400;
     margin-top: 0;
+
 }
 
 section h3.section-subheading {
@@ -96,6 +97,7 @@ section h3.section-subheading {
   border-color: #442D24;
   color: #442D24;
   border-radius: 50px;
+  border-width: 2px;
 }
 
 .btn-green {
@@ -103,6 +105,8 @@ section h3.section-subheading {
   border-color: #84902D;
   color: #84902D;
   border-radius: 50px;
+  border-width: 2px;
+
 }
 
 #learnMore {
