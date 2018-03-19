@@ -225,7 +225,6 @@ header.masthead .intro-text .intro-heading {
   display: inline-block;
   font-family: Futura, "Trebuchet MS", Arial, sans-serif;
   background-color: rgba(132, 144, 45, .7);
-  display: inline block;
 }
 
 @media (min-width: 768px) {

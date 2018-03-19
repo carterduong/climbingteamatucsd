@@ -142,6 +142,10 @@ img::-moz-selection {
   color: gray;
 }
 
+.mountain {
+  margin-bottom: -1500px;
+}
+
 @media (min-width: 992px) {
   #mainNav {
     padding-top: 25px;
@@ -231,6 +235,8 @@ header.masthead .intro-text .intro-heading {
   font-family: Futura, "Trebuchet MS", Arial, sans-serif;
   background-color: rgba(132, 144, 45, .7);
   display: inline-block;
+  padding-right: 15px;
+  padding-left: 15px;
 }
 
 
@@ -736,13 +742,8 @@ footer {
   padding: 25px 0;
   text-align: center;
   background-color: #D18F39;
-<<<<<<< HEAD
   /*background-image: url("../img/mountain2.png");*/
   background-size: 30%;
-=======
-  background-image: url("../img/mountain-footer.png");
-  background-size: 50% 100%;
->>>>>>> 3edc32f81f8cba9becb3f04fee38eba4d1623524
   background-repeat: no-repeat;
 }
 
@@ -768,6 +769,7 @@ footer ul.quicklinks {
 
 .mountain {
   margin-bottom: -25px;
+  margin-top: -10px;
 }
 
 ul.social-buttons {
