@@ -190,7 +190,7 @@ header.masthead.about {
 }
 
 header.masthead.faq {
-  background-image: linear-gradient(rgba(209, 143, 57, 0.7), rgba(209, 143, 57, .25)), 
+  background-image: linear-gradient(rgba(209, 143, 57, 0.5), rgba(209, 143, 57, 0)), 
   url("../img/faq-header.png");
 }
 

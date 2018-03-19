@@ -269,7 +269,7 @@ header.masthead.faq {
 }
 
 header.masthead.getinvolved {
-  background-image: linear-gradient(rgba(209, 143, 57, 0.25), rgba(209, 143, 57, 0.25)), 
+  background-image: linear-gradient(rgba(209, 143, 57, 0.5), rgba(209, 143, 57, 0)), 
   url("../img/getinvolved-header.png");
 
   
