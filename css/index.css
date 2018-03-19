@@ -100,22 +100,31 @@ section h3.section-subheading {
   border-width: 2px;
 }
 
+.btn-brown:hover {
+  background-color: #442D24;
+  color: white;
+}
+
 .btn-green {
   background-color: transparent;
   border-color: #84902D;
   color: #84902D;
   border-radius: 50px;
   border-width: 2px;
+}
 
+.btn-green:hover {
+  background-color: #84902D;
+  color: white;
 }
 
 #learnMore {
-    margin-top: 150px;
+  margin-top: 150px;
 }
 
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
-  background-color: darkgray !important;
-  border-color: darkgray !important;
+  background-color: #b75b24 !important;
+  border-color: #b75b24 !important;
   color: white;
 }
 
@@ -241,7 +250,6 @@ header.masthead.getinvolved {
 header.masthead.contactus {
   background-image: url("../img/contactus-header.png");
 }
-
 
 header.masthead .intro-text {
   padding-top: 150px;
