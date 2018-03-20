@@ -64,7 +64,7 @@ section h3.section-subheading {
   color: white;
   margin-bottom: 75px;
   text-transform: none;
-  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+  font-family: "futura-pt", Futura, "Trebuchet MS", Arial, sans-serif;
 
 }
 
@@ -78,7 +78,7 @@ section h3.section-subheading {
 
 .btn {
   font-family: "futura-pt", Futura, "Trebuchet MS", Arial, sans-serif;
-  font-weight: 700;
+  font-weight: 500;
 }
 
 .btn-xl {
@@ -399,10 +399,12 @@ h4.card-title {
     padding: 9px 14px 0px 10px;
     line-height: 1.5;
     margin-bottom: 0rem;
+    font-weight: 500;
 }
 
 p.card-text {
     padding: 0px 10px 15px 10px;
+
 }
 
 #getConnected {

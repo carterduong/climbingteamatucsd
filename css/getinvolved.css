@@ -126,7 +126,7 @@ section .getinvolved {
 
 .btn {
   font-family: Futura, "Trebuchet MS", Arial, sans-serif;
-  font-weight: 700;
+  font-weight: 500;
 }
 
 .btn-xl {
@@ -462,7 +462,7 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
   }
 
   section h2.section-heading {
-    font-size: 30px;
+    font-size: 40px;
     margin-top: -50px;
     margin-bottom: 15px;
   }
