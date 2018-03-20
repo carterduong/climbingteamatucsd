@@ -89,14 +89,14 @@ section h3.section-subheading {
 .btn-primary {
   background-color: #D3743B;
   border-color: #D3743B;
-  border-radius: 50px;
+
 }
 
 .btn-brown {
   background-color: transparent;
   border-color: #442D24;
   color: #442D24;
-  border-radius: 50px;
+
   border-width: 2px;
 }
 
@@ -109,7 +109,7 @@ section h3.section-subheading {
   background-color: transparent;
   border-color: #84902D;
   color: #84902D;
-  border-radius: 50px;
+ 
   border-width: 2px;
 }
 
