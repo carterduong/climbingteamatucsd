@@ -26,16 +26,6 @@ a:hover {
   color: gray !important;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-weight: 700;
-
-}
-
 section {
   padding: 100px 0;
 }
@@ -64,7 +54,6 @@ section h3.section-subheading {
 }
 
 .btn {
-
   font-weight: 700;
 }
 
@@ -233,13 +222,13 @@ header.masthead .intro-text .intro-lead-in {
 
 header.masthead .intro-text .intro-heading {
   font-size: 50px;
-  font-weight: 600;
+  font-weight: 700;
   line-height: 50px;
   margin-bottom: 25px;
-  /*background-color: rgba(132, 144, 45, .7);*/
   display: inline-block;
-  padding-right: 15px;
+  /*background-color: rgba(132, 144, 45, .7);*/
   padding-left: 15px;
+  padding-right: 15px;
 }
 
 
@@ -259,7 +248,7 @@ header.masthead .intro-text .intro-heading {
   }
   header.masthead .intro-text .intro-heading {
     font-size: 75px;
-    font-weight: 600;
+    font-weight: 700;
     line-height: 75px;
     margin-bottom: 50px;
     font-family: "futura-pt", Futura, "Trebuchet MS", Arial, sans-serif;
