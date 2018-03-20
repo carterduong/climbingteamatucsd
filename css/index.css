@@ -44,9 +44,9 @@ section {
 
 section h2.section-heading {
   font-family: "futura-pt";
-  font-weight: 400;
+  font-weight: 500;
   font-style: normal;
-  font-size: 40px;
+  font-size: 60px;
   margin-top: 0;
   margin-bottom: 15px;
 }
@@ -233,6 +233,7 @@ header.masthead {
 header.masthead.index {
   background-image: linear-gradient(rgba(209, 143, 57, 0.5), rgba(209, 143, 57, 0)),
   url("../img/header-bg.jpg");
+  box-shadow:inset 0 0 0 2000px rgba(0,0,0,0.2);
   background-repeat: no-repeat;
   min-height: 100%;
   width: 100%;
