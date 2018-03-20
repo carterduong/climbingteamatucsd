@@ -1,5 +1,6 @@
 body {
   overflow-x: hidden;
+  font-family: "futura-pt", Futura, "Trebuchet MS", Arial, sans-serif;
 }
 html{
   overflow-x: hidden;
@@ -111,7 +112,6 @@ img::-moz-selection {
   color: orange;
   border: 0;
   background-color: transparent;
-  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
 }
 
 #mainNav .navbar-brand {
@@ -128,7 +128,6 @@ img::-moz-selection {
   padding: 0.75em 0;
   letter-spacing: 1px;
   color: white;
-  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
@@ -190,7 +189,7 @@ header.masthead.about {
 }
 
 header.masthead.faq {
-  background-image: linear-gradient(rgba(209, 143, 57, 0.7), rgba(209, 143, 57, .25)), 
+  background-image: linear-gradient(rgba(209, 143, 57, 0.5), rgba(209, 143, 57, 0)), 
   url("../img/faq-header.png");
 }
 
@@ -204,8 +203,9 @@ header.masthead.contactus {
 
 
 header.masthead .intro-text {
-  padding-top: 150px;
-  padding-bottom: 100px;
+  margin-top: 50px;
+  padding-top: 170px;
+  padding-bottom: 130px;
 }
 
 header.masthead .intro-text .intro-lead-in {
@@ -213,42 +213,29 @@ header.masthead .intro-text .intro-lead-in {
   font-style: italic;
   line-height: 22px;
   margin-bottom: 25px;
-  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
   display: inline-block;
 }
 
 header.masthead .intro-text .intro-heading {
   font-size: 50px;
-  font-weight: 600;
+  font-weight: 700;
   line-height: 50px;
   margin-bottom: 25px;
   display: inline-block;
-  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
-  background-color: rgba(132, 144, 45, .7);
-  display: inline block;
+  /*background-color: rgba(132, 144, 45, .7);*/
 }
 
 @media (min-width: 768px) {
   header.masthead .intro-text {
-    padding-top: 300px;
-    padding-bottom: 200px;
-  }
-  header.masthead .intro-text .intro-lead-in {
-    font-size: 40px;
-    font-style: italic;
-    line-height: 40px;
-    margin-bottom: 25px;
-    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+    padding-top: 240px;
+    padding-bottom: 210px;
   }
   header.masthead .intro-text .intro-heading {
     font-size: 75px;
-    font-weight: 600;
+    font-weight: 700;
     line-height: 75px;
     margin-bottom: 50px;
-    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
-    background-color: rgba(132, 144, 45, .7);
-    display: inline-block;
-
+    font-family: "futura-pt", Futura, "Trebuchet MS", Arial, sans-serif;
   }
 
 }
@@ -260,8 +247,6 @@ header.masthead .intro-text .intro-heading {
     max-width: 50%;
   }
 }
-
-font-family: Futura, "Trebuchet MS", Arial, sans-serif;
 }
 
 section#faq {
@@ -299,7 +284,6 @@ footer span.copyright {
   font-size: 90%;
   line-height: 40px;
   text-transform: none;
-  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
 }
 
 footer ul.quicklinks {
@@ -307,7 +291,6 @@ footer ul.quicklinks {
   line-height: 40px;
   margin-bottom: 0;
   text-transform: none;
-  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
 }
 
 ul.social-buttons {

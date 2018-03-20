@@ -64,7 +64,7 @@ section h3.section-subheading {
   color: white;
   margin-bottom: 75px;
   text-transform: none;
-  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+  font-family: "futura-pt", Futura, "Trebuchet MS", Arial, sans-serif;
 
 }
 
@@ -78,7 +78,7 @@ section h3.section-subheading {
 
 .btn {
   font-family: "futura-pt", Futura, "Trebuchet MS", Arial, sans-serif;
-  font-weight: 700;
+  font-weight: 500;
 }
 
 .btn-xl {
@@ -231,8 +231,12 @@ header.masthead {
 }
 
 header.masthead.index {
-  background-image: url("../img/header-bg.jpg");
-  height: 100vh;
+  background-image: linear-gradient(rgba(209, 143, 57, 0.5), rgba(209, 143, 57, 0)),
+  url("../img/header-bg.jpg");
+  background-repeat: no-repeat;
+  min-height: 100%;
+  width: 100%;
+  height: auto;
 }
 
 header.masthead.about {
@@ -252,8 +256,9 @@ header.masthead.contactus {
 }
 
 header.masthead .intro-text {
-  padding-top: 150px;
-  padding-bottom: 100px;
+  margin-top: 70px;
+  padding-top:;
+  padding-bottom: 120px;
 }
 
 header.masthead .intro-text .intro-lead-in {
@@ -265,22 +270,25 @@ header.masthead .intro-text .intro-lead-in {
 }
 
 header.masthead .intro-text .intro-heading {
-  display: inline;
-  text-align: center;
+  display: inline-block;
+  text-align: left;
   font-family: "futura-pt", Futura, "Trebuchet MS", Arial, sans-serif;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 600;
   font-size: 50px;
-  line-height: 64px;
-  margin-top: 100px;
-  margin-bottom: 25px;
-  background-color: rgba(211, 116, 59, .7);
+  line-height: 60px;
+  margin-top: 20px;
+  margin-bottom: 220px;
+  /*background-color: rgba(68, 45, 36, 0.6);*/
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 @media (min-width: 768px) {
   header.masthead .intro-text {
-    padding-top: 300px;
-    padding-bottom: 200px;
+    margin-top: -50px;
+    padding-top: 350px;
+    padding-bottom: 160px;
   }
   header.masthead .intro-text .intro-lead-in {
     font-size: 40px;
@@ -328,67 +336,7 @@ header.masthead .intro-text .intro-heading {
   text-transform: none;
 }
 
-section#contact {
-  background-color: #212529;
-  background-repeat: no-repeat;
-  background-position: center;
-}
 
-section#contact .section-heading {
-  color: white;
-}
-
-section#contact .form-group {
-  margin-bottom: 25px;
-}
-
-section#contact .form-group input,
-section#contact .form-group textarea {
-  padding: 20px;
-}
-
-section#contact .form-group input.form-control {
-  height: auto;
-}
-
-section#contact .form-group textarea.form-control {
-  height: 248px;
-}
-
-section#contact .form-control:focus {
-  border-color: gray;
-  box-shadow: none;
-}
-
-section#contact ::-webkit-input-placeholder {
-  font-weight: 700;
-  color: #ced4da;
-  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
-}
-
-section#contact :-moz-placeholder {
-  font-weight: 700;
-  color: #ced4da;
-  /* Firefox 18- */
-  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
-}
-
-section#contact ::-moz-placeholder {
-  font-weight: 700;
-  color: #ced4da;
-  /* Firefox 19+ */
-  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
-}
-
-section#contact :-ms-input-placeholder {
-  font-weight: 700;
-  color: #ced4da;
-  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
-}
-
-section #faq {
-  padding: 50px;
-}
 
 #accordion {
   margin: auto;
@@ -451,10 +399,12 @@ h4.card-title {
     padding: 9px 14px 0px 10px;
     line-height: 1.5;
     margin-bottom: 0rem;
+    font-weight: 500;
 }
 
 p.card-text {
     padding: 0px 10px 15px 10px;
+
 }
 
 #getConnected {
